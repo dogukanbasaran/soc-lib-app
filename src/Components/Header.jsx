@@ -34,7 +34,7 @@ function Header() {
         {/* LOGO */}
         <div className='flex items-center gap-2 ' id='logo'>
         <img src={logo} className='pl-4 w-[80px] object-cover'/>
-        <h1 className=' text-2xl text-white font-bold'>SOCIOLOGY LIBRARY</h1>
+        <h1 className=' text-2xl text-white font-bold whitespace-nowrap'>SOCIOLOGY LIBRARY</h1>
         </div>
 
         {/* MENU */}
@@ -45,9 +45,15 @@ function Header() {
         </div>
 
         {/* USER LOGIN */}
-        <div className='pr-4' id='user-login'>
+        <div className='hidden xl:block pr-4' id='user-login'>
             <button className='flex bg-blue-800 py-2 px-4 hover:bg-blue-500 duration-500 text-white font-semibold rounded-md'>LOGIN</button>
         </div>
+
+        {/* MOBILE MENU */}
+
+        {/* <div className='block xl:hidden pr-4' id='mobile-menu'>
+        <button className='flex bg-blue-800 py-2 px-4 hover:bg-blue-500 duration-500 text-white font-semibold rounded-md whitespace-nowrap'>MOBILE MENU</button>
+        </div> */}
     </div>
   )
 }
