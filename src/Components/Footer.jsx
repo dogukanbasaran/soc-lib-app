@@ -4,8 +4,8 @@ import { FaInstagram, FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className='h-48 bg-gradient-to-t from-slate-900 to-black px-40'>
-       <div className='container flex flex-col xl:flex-row '>
+    <footer className='h-48 bg-gradient-to-t from-slate-900 to-black px-40 border-t border-t-blue-400'>
+       <div className='container flex flex-col xl:flex-row mt-3'>
         {/* LEFT */}
         <div className='basis-1/3 flex pl-10 pt-2'>
             <a href="#" className='flex hover:scale-110 duration-1000'>

@@ -13,7 +13,6 @@ function App() {
   return (
     <div>
         <Header/>
-        <hr/>
         <main>
           <SearchBar/>
           <Introduction/>

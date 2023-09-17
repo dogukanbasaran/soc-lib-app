@@ -30,7 +30,7 @@ function Header() {
 
   return (
      // NAVIGATION BAR
-    <header className='flex justify-between items-center bg-slate-900 py-4' id='header'>
+    <header className='flex justify-between items-center bg-slate-900 py-4 border-b border-b-blue-400' id='header'>
         {/* LOGO */}
         <div className='flex items-center gap-2 ' id='logo'>
         <img src={logo} className='pl-4 w-[80px] object-cover'/>
