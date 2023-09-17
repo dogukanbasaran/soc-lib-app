@@ -6,6 +6,7 @@ import Header from './Components/Header'
 import SearchBar from './Components/SearchBar'
 import Introduction from './Components/Introduction'
 import Library from './Components/Library'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -13,10 +14,12 @@ function App() {
     <div>
         <Header/>
         <hr/>
-        <SearchBar/>
-        <Introduction/>
-        <Library/>
-        
+        <main>
+          <SearchBar/>
+          <Introduction/>
+          <Library/>
+        </main>
+        <Footer/>
         
     </div>
     )

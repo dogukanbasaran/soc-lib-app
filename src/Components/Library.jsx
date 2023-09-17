@@ -4,7 +4,7 @@ import bookImage from '../assets/Images/book-image/anthony-giddens-sociology-6th
 class Library extends React.Component {
     render(){
         return (
-            <div className='text-white bg-black grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-3 p-10'>
+            <div className='text-white bg-black grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-rows-3 p-10' id='library'>
                 {/* Book Cards */}
 
                 <div className='border max-w-lg sm:max-w-md lg:max-w-sm rounded-lg overflow-hidden'>

@@ -30,7 +30,7 @@ function Header() {
 
   return (
      // NAVIGATION BAR
-    <div className='flex justify-between items-center bg-slate-900 py-4' id='navigation'>
+    <header className='flex justify-between items-center bg-slate-900 py-4' id='header'>
         {/* LOGO */}
         <div className='flex items-center gap-2 ' id='logo'>
         <img src={logo} className='pl-4 w-[80px] object-cover'/>
@@ -38,11 +38,13 @@ function Header() {
         </div>
 
         {/* MENU */}
-        <div className='flex items-center space-x-8  mr-64' id='menu'>
-            {menu.map((item) =>(
-                <HeaderItem name={item.name} Icon={item.icon}/>
-            ))}
-        </div>
+        <nav className='mr-64' id='menu'>
+            <ul className='flex items-center space-x-8'>
+                {menu.map((item) =>(
+                    <HeaderItem name={item.name} Icon={item.icon}/>
+                ))}
+            </ul>
+        </nav>
 
         {/* USER LOGIN */}
         <div className='hidden xl:block pr-4' id='user-login'>
@@ -54,7 +56,7 @@ function Header() {
         {/* <div className='block xl:hidden pr-4' id='mobile-menu'>
         <button className='flex bg-blue-800 py-2 px-4 hover:bg-blue-500 duration-500 text-white font-semibold rounded-md whitespace-nowrap'>MOBILE MENU</button>
         </div> */}
-    </div>
+    </header>
   )
 }
 
