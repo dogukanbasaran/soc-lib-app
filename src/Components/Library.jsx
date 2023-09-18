@@ -9,7 +9,7 @@ const Library = (props) => {
                 {props.books.map((book) => (
                         <div className='max-w-sm sm:max-w-md lg:max-w-sm overflow-hidden' key={book.id}>
                             <img src={book.imageURL} alt='' className='w-[400px] sm:w-full h-auto max-h-[500px] lg:max-h-[480px] xl:max-h-[400px]'/>
-                            <div className='p-2 bg-slate-900  h-[100px]'>
+                            <div className='p-2 bg-slate-900  h-[120px]'>
                                 <h3 className='text-[18px] font-semibold flex justify-center'>{book.name}</h3>
                                 <p className='text-gray-400 mt-2 flex justify-center text-[14px]'>{book.description}</p>
                             </div>
