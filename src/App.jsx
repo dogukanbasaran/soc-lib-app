@@ -23,19 +23,19 @@ class App extends React.Component {
         "id": 2,
         "name": "Sociological Theory",
         "description": "Sociological Theory by G. Ritzer and J. Stepnisky ninth edition.",
-        "imageURL" : "https://i.hizliresim.com/o2c3di7.png"
+        "imageURL" : "https://i.hizliresim.com/6sofgxh.png"
       },
       {
         "id": 3,
         "name": "The Presentation of Self in Everyday Life",
         "description": "The Presentation of Self in Everyday Life by Erving Goffman",
-        "imageURL" : "https://i.hizliresim.com/5u8cnpc.png"
+        "imageURL" : "https://i.hizliresim.com/6sofgxh.png"
       },
       {
         "id": 4,
         "name": "Social Psychology",
         "description": "Social Psychology by Elliot Aronson",
-        "imageURL" : "https://i.hizliresim.com/r5hyele.png"
+        "imageURL" : "https://i.hizliresim.com/6sofgxh.png"
       },
       {
         "id": 5,
